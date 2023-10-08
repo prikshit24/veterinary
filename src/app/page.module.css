@@ -1,0 +1,60 @@
+.slide {
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 350px;
+}
+
+.slide h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-family: cursive;
+}
+
+.slide h2 {
+    font-size: 50px;
+    line-height: 70px;
+    font-family: 'Brush Script MT', cursive;
+    color: #222222;
+}
+
+.slide h4 {
+    text-align: left;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Courier New', monospace;
+}
+
+.slider2 {
+    color: #4acbbc !important;
+}
+
+.servicesSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+}
+
+.serviceBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 270px;
+}
+
+.serviceBlock img{
+    margin-bottom: 30px;
+}
+
+.usSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+    background-color: #ebf8e6;
+}

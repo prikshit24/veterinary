@@ -1,0 +1,34 @@
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logoText h3 {
+    font-family: cursive;
+    color: #09357a;
+    margin-bottom: 0px;
+}
+
+.logoText h5 {
+    font-family: 'Courier New', monospace;
+    color: #09357a;
+    margin-top: 0px;
+}
+
+.emailField {
+    width: 100%;
+    position: relative;
+}
+
+.passwordField {
+    width: 100%;
+    position: relative;
+}
+
+.passwordField{
+    position: fixed;
+    right: 10px;
+}

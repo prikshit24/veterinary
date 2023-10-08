@@ -1,0 +1,47 @@
+.sidebarContainer {
+    height: 500px;
+    width: 350px;
+    padding: 30px 40px;
+    background-color: #56bfc0;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logoText h3 {
+    font-family: cursive;
+    color: #09357a;
+    margin-bottom: 0px;
+}
+
+.logoText h5 {
+    font-family: 'Courier New', monospace;
+    color: #09357a;
+    margin-top: 0px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.footerContainer {
+    padding: 40px 120px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.logoText h3 {
+    font-family: cursive;
+    color: #fff;
+}
+
+.logoText h5 {
+    font-family: 'Courier New', monospace;
+    color: #fff;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.socialList li {
+    background-color: #ebf8e6;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section2 h3 {
+    font-family: cursive;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.workingListRow {
+    display: flex;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.workingListRow div {
+    width: 50%;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section3 h3 {
+    font-family: cursive;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contactRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,46 @@
+.passwordBox{
+    width: 100%;
+    height:40px;
+    padding-inline: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.passwordBox:hover{
+    border: 1px solid #ddd;
+}
+
+.passwordBox:focus-visible{
+    background-color: transparent;
+    color: #000;
+    outline: 1px solid #ddd,
+}
+
+.passwordBox:focus-within{
+    background-color: #fff;
+    color: #000;
+    outline: 1px solid #ddd,
+}
+
+.passwordInput{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+.passwordInput:focus-visible{
+    background-color: transparent;
+    outline: transparent !important;
+}
